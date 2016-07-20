@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.k.shoppingapp.MainActivity">
+
+    <com.example.k.shoppingapp.Util.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/percent_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_heightPercent="40%w"
+            app:layout_widthPercent="100%w">
+
+            <com.jude.rollviewpager.RollPagerView
+                android:id="@+id/roll_view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:rollviewpager_hint_gravity="center"
+                app:rollviewpager_hint_paddingBottom="0dp"
+                app:rollviewpager_hint_paddingLeft="0dp"
+                app:rollviewpager_hint_paddingRight="0dp"
+                app:rollviewpager_hint_paddingTop="0dp"
+                app:rollviewpager_play_delay="5000"></com.jude.rollviewpager.RollPagerView>
+        </LinearLayout>
+    </com.example.k.shoppingapp.Util.PercentRelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/percent_layout"
+        android:layout_marginTop="5dp">
+        <include layout="@layout/navigation_bar_layout"></include>
+    </ScrollView>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</RelativeLayout>

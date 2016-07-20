@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="女装"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonstype"
+                android:id="@+id/nvzhuang" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/buttonstype"
+                android:layout_weight="1"
+                android:text="男装"
+                android:id="@+id/nanzhuang" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/buttonstype"
+                android:layout_weight="1"
+                android:text="女鞋"
+                android:id="@+id/nvxie" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/buttonstype"
+                android:layout_weight="1"
+                android:text="男鞋"
+                android:id="@+id/nanxie" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/buttonstype"
+                android:layout_weight="1"
+                android:text="裤子"
+                android:id="@+id/kuzi" />
+        </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/buttonstype"
+            android:text="帽子"
+            android:layout_weight="1"
+            android:id="@+id/maozi" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/buttonstype"
+            android:layout_weight="1"
+            android:text="电脑"
+            android:id="@+id/diannao" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/buttonstype"
+            android:layout_weight="1"
+            android:text="手机"
+            android:id="@+id/shouji" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/buttonstype"
+            android:layout_weight="1"
+            android:text="食品"
+            android:id="@+id/shipin" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/buttonstype"
+            android:layout_weight="1"
+            android:text="情侣装"
+            android:id="@+id/qinglvzhuang" />
+    </TableRow>
+</TableLayout>
+</LinearLayout>
