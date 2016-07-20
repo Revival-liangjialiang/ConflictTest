@@ -1,4 +1,4 @@
-package com.example.k.shoppingapp;
+﻿package com.example.k.shoppingapp;
 
 import android.content.Context;
 import android.graphics.Bitmap;
