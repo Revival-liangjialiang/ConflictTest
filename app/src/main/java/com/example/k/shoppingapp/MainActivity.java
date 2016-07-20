@@ -1,4 +1,4 @@
-package com.example.k.shoppingapp;
+﻿package com.example.k.shoppingapp;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -37,6 +37,7 @@ import com.jude.rollviewpager.hintview.IconHintView;
 import java.util.HashMap;
 
 public class MainActivity extends AppCompatActivity{
+    String str = "这是conflict做的修改";
     ViewPager viewPager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
