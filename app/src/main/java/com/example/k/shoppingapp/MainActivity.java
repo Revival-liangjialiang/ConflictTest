@@ -37,6 +37,7 @@ import com.jude.rollviewpager.hintview.IconHintView;
 import java.util.HashMap;
 
 public class MainActivity extends AppCompatActivity{
+    String str = "conflict1做的修改";
     ViewPager viewPager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
